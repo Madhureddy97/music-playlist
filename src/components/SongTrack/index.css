@@ -1,0 +1,56 @@
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-genre-name-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.song-image {
+  height: 100px;
+  width: 130px;
+  border-radius: 8px;
+}
+
+.name-genre-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.name-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.genre-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #3b82f6;
+}
+
+.duration-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.delete-button {
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 0px;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.duration-delete-container {
+  display: flex;
+}
